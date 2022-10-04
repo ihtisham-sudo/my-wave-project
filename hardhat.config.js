@@ -10,7 +10,7 @@ module.exports = {
     },
     mainnet: {
       chainId: 1,
-      url: process.env.PROD_QUICKNODE_KEY,
+      url: process.env.PROD_QUICKNODE_KE,
       accounts: [process.env.PRIVATE_KEY],
     },
   },
